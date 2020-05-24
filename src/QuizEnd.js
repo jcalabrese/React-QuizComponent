@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 
 class QuizEnd extends Component {
-  constructor(props) {
-    super(props);
-    this.resetClickHandler = this.handleResetClick.bind(this);
-  }
   handleResetClick() {
     this.props.resetClickHandler();
   }
